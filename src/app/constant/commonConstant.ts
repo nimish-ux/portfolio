@@ -135,17 +135,17 @@ export const tabLabels = [
     items: [
       {
         id: 1,
-        label: "Product Design",
+        label: "Blog",
         image: "https://via.placeholder.com/150",
       },
       {
         id: 2,
-        label: "Graphic Design",
+        label: "Blog",
         image: "https://via.placeholder.com/150",
       },
       {
         id: 3,
-        label: "3D Printing",
+        label: "Blog",
         image: "https://via.placeholder.com/150",
       },
       {
@@ -155,7 +155,7 @@ export const tabLabels = [
       },
       {
         id: 5,
-        label: "About me",
+        label: "Blog",
         image: "https://via.placeholder.com/150",
       },
     ],
