@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Link from 'next/link';
 import {
   Box,
   Tabs,
@@ -87,10 +86,7 @@ const MainContent: React.FC = () => {
       
           {tabLabels[value].items.map((item) => (
             <Grid item xs={12} sm={6} md={4} key={item.id}>
-              {item.docURL && 
-              <Link href={item.docURL} passHref>
               <Paper
-              onClick={}
                 sx={{ backgroundColor: "#202124", border: "1px solid #707070" }}
               >
                 <div
@@ -118,8 +114,6 @@ const MainContent: React.FC = () => {
                   {item.label}
                 </Typography>
               </Paper>
-              </Link>
-}
             </Grid>
           ))}
         </Grid>
