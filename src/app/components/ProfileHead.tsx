@@ -43,7 +43,7 @@ const ProfileHead: React.FC = () => {
       <div
         style={{
           position: 'absolute',
-          top: '-30px',
+          top: '-50px',
           width: '100%',
           zIndex: 10,
           height: '250px',
