@@ -12,7 +12,7 @@ const ProfileHead: React.FC = () => {
         sx={{
           position: "relative",
           width: "100%",
-          height: "18%",
+          height: "14%",
           backgroundSize: "cover",
           backgroundPosition: "center",
           borderBottom: "1px solid #707070",
