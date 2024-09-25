@@ -11,7 +11,7 @@ import {
   styled,
 } from "@mui/material";
 import Image from "next/image";
-import { tabLabels } from "../../../tailwind.config";
+import { tabLabels } from "../constant/commonConstant";
 
 type ArrayItem = {
   id: number;
