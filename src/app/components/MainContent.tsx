@@ -92,20 +92,19 @@ const MainContent: React.FC = () => {
                 <div
                   style={{
                     height: "200px",
-                    width: "150px",
                   }}
                 >
                   <Image
                     src={item.image}
                     alt={item.label}
-                    width={150}
-                    height={200}
+                    width={100}
+                    height={100}
+                    style={{ objectFit: "cover",width: "100%", height: "100%" }}
                   />
                 </div>
                 <Typography
                   variant="body1"
                   sx={{
-                    mt: 2,
                     pl: 2,
                     py: 1,
                     color: "white",
