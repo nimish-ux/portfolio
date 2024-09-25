@@ -55,7 +55,7 @@ const Sidebar = () => {
             mt: 2,
             height: "166px",
             overflowY: "auto",
-            scrollbarWidth: "none",
+            scrollbarWidth: "3px",
             msOverflowStyle: "none",
           }}
         >
