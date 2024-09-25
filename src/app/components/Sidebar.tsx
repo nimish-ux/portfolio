@@ -68,7 +68,7 @@ const Sidebar = () => {
               <Image
                 src={items.company === "Codewalla" ? cwLogo : tiLogo}
                 alt="Profile"
-              style={{ width: 40, height: 40 }}
+              style={{ borderRadius: "8px", width: 40, height: 40 }}
               />
               <Box sx={{ ml: 4 }}>
                 <Typography variant="body1" sx={{ fontWeight: "bold" }}>
