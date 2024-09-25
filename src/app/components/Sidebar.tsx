@@ -71,7 +71,7 @@ const Sidebar = () => {
               style={{ borderRadius: "8px", width: 40, height: 40 }}
               />
               <Box sx={{ ml: 4 }}>
-                <Typography variant="body1" sx={{ fontWeight: "bold" }}>
+                <Typography variant="body1" sx={{ fontWeight: "semibold" }}>
                   {items.designation}
                 </Typography>
                 <Typography variant="body2">{items.company}</Typography>
