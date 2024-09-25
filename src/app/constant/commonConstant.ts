@@ -1,7 +1,7 @@
 import profileImg from "../assets/profileImg.png";
 import cwLogo from "../assets/cw_logo.png";
 import tiLogo from "../assets/ty_logo.jpeg";
-import image from "../assers/Hercules";
+import image from "../assets/Hercules.png";
 
 
 export const jobTitles = ["UI UX Designer"," Product Designer", "Visual Designer"];
