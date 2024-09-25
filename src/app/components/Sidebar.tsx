@@ -23,7 +23,7 @@ const Sidebar = () => {
         <Typography
           variant="h5"
           component="h4"
-          sx={{ fontSize: "18px", fontWeight: "semibold" }}
+          sx={{ fontSize: "18px", fontWeight: "bold" }}
         >
           About
         </Typography>
@@ -32,6 +32,7 @@ const Sidebar = () => {
           variant="body1"
           sx={{
             fontSize: "14px",
+            fontWeight: "regular",
             paddingRight: "20px",
             pt: 1,
             display: "-webkit-box",
@@ -47,7 +48,7 @@ const Sidebar = () => {
          </Tooltip>
       </Box>
       <Box>
-        <Typography variant="h5" component="h4" sx={{ fontSize: "18px", fontWeight: "semibold" }}>
+        <Typography variant="h5" component="h4" sx={{ fontSize: "18px", fontWeight: "bold" }}>
           Work Experience ({profileDetails.experienceYears}+ years)
         </Typography>
         <Box
