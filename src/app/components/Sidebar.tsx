@@ -83,7 +83,7 @@ const Sidebar = () => {
           variant="body2"
           color="#707070"
           align="left"
-          sx={{ paddingBottom: "30px", mt: 0 }}
+          sx={{ paddingBottom: "5px", mt: 0 }}
         >
           
           
