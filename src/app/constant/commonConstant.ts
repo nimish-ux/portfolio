@@ -198,20 +198,20 @@ export const profileDetails ={
   name: "Nimish Nerlekar",
   profileImage: profileImg,
   email: "nimishnerlekarwork@gmail.com",
-  about:"I’m a strategic and imaginative designer passionate about creating impactful, human-centric products and experiences. I love helping businesses grow through design, whether working independently or in a team. Driven by curiosity, I enjoy researching, solving problems, and contributing to society in meaningful ways.",
+  about:"Creative and strategic Product Designer with experience in UI/UX design, problem-solving, and delivering human-centric digital solutions. Expertise in SaaS, B2B, game-tech, and AI projects. Passionate about data analysis, psychology, and 3D printing.",
   experienceYears:"2",
   linkedIn:"https://www.linkedin.com/in/nimish-nerlekar/",
   behance:"https://www.behance.net/NimishNerlekar",
   workExperience:[{
     id:1,
-    designation:"UI UX Designer",
+    designation:"Product Designer II",
     company:"Codewalla",
     duration:"July 2022 - Present",
     companyLogo:"../assets/cw_logo.png",
   },
   {
     id:2,
-    designation:"Junior Industrial Designer",
+    designation:"Junior Product Designer",
     company:"TI Cycles of India",
     duration:"Jan 2022 - July 2022",
     companyLogo:tiLogo
