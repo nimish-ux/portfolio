@@ -211,7 +211,7 @@ export const profileDetails ={
   },
   {
     id:2,
-    designation:"Junior Product Designer",
+    designation:"Junior Industrial Designer",
     company:"TI Cycles of India",
     duration:"Jan 2022 - July 2022",
     companyLogo:tiLogo

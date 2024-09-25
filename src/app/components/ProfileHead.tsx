@@ -24,10 +24,10 @@ const ProfileHead: React.FC = () => {
             position: 'absolute',
             top: '70px',
             left: '65px',
-            width: '120px',
-            height: '120px',
+            width: '150px',
+            height: '150px',
             border: '3px solid white',
-            borderRadius: '12px',
+            borderRadius: '10px',
             zIndex: 100,
             overflow: 'hidden',
           }}
