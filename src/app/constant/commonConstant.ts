@@ -8,7 +8,7 @@ export const jobTitles = ["UI UX Designer"," Product Designer", "Visual Designer
 export const tabLabels = [
   {
     id: 1,
-    label: "UI UX",
+    label: "Product Design",
     items: [
       {
         id: 1,
@@ -39,37 +39,6 @@ export const tabLabels = [
   },
   {
     id: 2,
-    label: "Product Design",
-    items: [
-      {
-        id: 1,
-        label: "Product Design",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 2,
-        label: "Product Design",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 3,
-        label: "Product Design",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 4,
-        label: "Product Design",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 5,
-        label: "Product Design",
-        image: "https://via.placeholder.com/150",
-      },
-    ],
-  },
-  {
-    id: 3,
     label: "Graphic Design",
     items: [
       {
@@ -100,7 +69,7 @@ export const tabLabels = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     label: "3D Printing",
     items: [
       {
@@ -131,7 +100,7 @@ export const tabLabels = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     label: "Blog",
     items: [
       {
@@ -162,7 +131,7 @@ export const tabLabels = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     label: "About me",
     items: [
       {
