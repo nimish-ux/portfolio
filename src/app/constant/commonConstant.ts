@@ -13,7 +13,7 @@ export const tabLabels = [
       {
         id: 1,
         label: "Graduation Project - TI Cycles of India",
-        image: "https://drive.google.com/file/d/1uY6xMc3EKPGL1Cdvm9qNHqtxXC_UABhA/view?usp=sharing",
+        image: "/Users/nimish/Documents/GitHub/portfolio/src/app/assets/Hercules.png",
       },
       {
         id: 2,
