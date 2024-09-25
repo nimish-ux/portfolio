@@ -19,7 +19,7 @@ const Sidebar = () => {
       }}
     >
       <Header />
-      <Box sx={{ mb: 4, pt: 4 }}>
+      <Box sx={{ mb: 5, pt: 5 }}>
         <Typography
           variant="h5"
           component="h4"
