@@ -3,7 +3,7 @@ import { Box, Typography, Button, IconButton } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import BrushIcon from "@mui/icons-material/Brush";
-import PinterestIcon from "@mui/icons-material/Pinterest";
+import BehanceIcon from "@mui/icons-material/behance";
 import JobTitleText from "./JobTitleText";
 
 import styled from '@emotion/styled';
