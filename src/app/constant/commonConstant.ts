@@ -11,7 +11,7 @@ export const tabLabels = [
     items: [
       {
         id: 1,
-        label: "UI UX",
+        label: "Graduation Project - TI Cycles of India",
         image: "../assets/Hercules.png",
       },
       {
