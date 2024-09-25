@@ -16,7 +16,7 @@ const ProfileHead: React.FC = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           borderBottom: "1px solid #707070",
-          background: "#1B1D21",
+          background: "#25272c",
         }}
       >
   <div
