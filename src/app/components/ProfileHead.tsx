@@ -57,7 +57,7 @@ const ProfileHead: React.FC = () => {
           objectFit="cover"
           style={{
             position: 'absolute',
-            width: '100%',
+            width: '50%',
             left: '0px',
             top: '0px',
             right: '0',
