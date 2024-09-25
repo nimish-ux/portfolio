@@ -31,6 +31,7 @@ const Sidebar = () => {
         <Typography
           variant="body1"
           sx={{
+            fontSize: "14px",
             pt: 1,
             display: "-webkit-box",
             WebkitBoxOrient: "vertical",
