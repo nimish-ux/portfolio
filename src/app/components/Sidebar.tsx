@@ -45,7 +45,7 @@ const Sidebar = () => {
          </Tooltip>
       </Box>
       <Box>
-        <Typography variant="h5" component="h2" sx={{ fontWeight: "bold" }}>
+        <Typography variant="h5" component="h4" sx={{ fontWeight: "semibold" }}>
           Work Experience ({profileDetails.experienceYears}+ years)
         </Typography>
         <Box
