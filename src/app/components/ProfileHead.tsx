@@ -26,7 +26,7 @@ const ProfileHead: React.FC = () => {
             left: '65px',
             width: '130px',
             height: '130px',
-            border: '2px solid #707070',
+            border: '1px solid #707070',
             borderRadius: '10px',
             zIndex: 100,
             overflow: 'hidden',
