@@ -15,6 +15,7 @@ export const tabLabels = [
         id: 1,
         label: "Graduation Project - TI Cycles of India",
         image: PDImage1,
+        docURL: "https://drive.google.com/file/d/1mQ4gpm3CIfwYzCPVp917Bh77sgGt_S3O/view?usp=drive_link"
       },
       {
         id: 2,
