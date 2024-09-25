@@ -50,7 +50,7 @@ const Header = () => {
         <Buttons
           // startIcon={<AccountCircleIcon />}
         >
-          Full Profile
+          Resume
         </Buttons>
         <IconButton
           sx={buttonStyles}
