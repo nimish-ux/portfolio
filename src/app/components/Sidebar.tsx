@@ -23,7 +23,7 @@ const Sidebar = () => {
         <Typography
           variant="h5"
           component="h4"
-          sx={{ fontSize: "18px", fontWeight: "bolder" }}
+          sx={{ fontSize: "18px", fontWeight: "semibold" }}
         >
           About
         </Typography>
