@@ -22,7 +22,7 @@ const Buttons = styled.button`
 const buttonStyles = {
   background: "#25272C",
   borderRadius: "8px",
-  border: "1px solid",
+  border: "1px #707070",
 };
 const Header = () => {
   return (
