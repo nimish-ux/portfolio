@@ -43,7 +43,21 @@ const MainContent: React.FC = () => {
   });
 
   return (
-    <Box sx={{ px: 4, pt: 4, width: "70%", borderLeft: "1px solid #707070" }}>
+    <Box
+    sx={(theme) => ({
+      px: 4,
+      pt: 4,
+      width: "70%",
+      borderLeft: "1px solid #707070",
+      [theme.breakpoints.down("md")]: {
+        flexDirection: "column",
+        px: 2,
+        pt: 2,
+        width: "100%", // Adjust width for mobile view if needed
+      },
+    })}
+    >
+
       <CustomTabs
         value={value}
         onChange={handleChange}

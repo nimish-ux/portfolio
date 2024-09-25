@@ -4,6 +4,26 @@ import Image from 'next/image';
 import backrounImg from '../assets/Group 61@2x.png'; // Adjust the path accordingly
 import { profileDetails } from '../constant/commonConstant';
 import profileImg from '../assets/profileImg.png'; // Import the image
+import styled from '@emotion/styled';
+
+const StyledDiv = styled.div`
+  position: absolute;
+  top: 70px;
+  left: 65px;
+  width: 150px;
+  height: 150px;
+  border: 3px solid white;
+  border-radius: 10px;
+  z-index: 100;
+  overflow: hidden;
+
+  @media (max-width: 768px) {
+    top: 100px;
+    left: 32px;
+    width: 100px;
+    height: 100px;
+  }
+`;
 
 const ProfileHead: React.FC = () => {
   return (
@@ -19,26 +39,14 @@ const ProfileHead: React.FC = () => {
           background: "#25272c",
         }}
       >
-  <div
-          style={{
-            position: 'absolute',
-            top: '70px',
-            left: '65px',
-            width: '130px',
-            height: '130px',
-            border: '1px solid #707070',
-            borderRadius: '10px',
-            zIndex: 100,
-            overflow: 'hidden',
-          }}
-        >
+  <StyledDiv>
           <Image
             src={profileImg}
             alt="avatar"
             layout="fill"
             objectFit="cover"
           />
-        </div>
+        </StyledDiv>
       </Box>
       <div
         style={{

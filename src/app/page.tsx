@@ -7,6 +7,21 @@ import Sidebar from "./components/Sidebar";
 import MainContent from "./components/MainContent";
 import ProfileHead from "./components/ProfileHead";
 import backGroundImg from "./assets/topBackground.png";
+import styled from '@emotion/styled';
+
+
+const FlexContainer = styled.div`
+  display: flex;
+  height: 82%;
+  overflow-y: auto;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+`;
+
 
 export default function Home() {
   const [theme, setTheme] = useState("dark");
@@ -27,18 +42,10 @@ export default function Home() {
    
       {/* <Header /> */}
       <ProfileHead />
-      <div
-        className="flex"
-        style={{
-          height: "82%",
-          overflowY: "auto",
-          scrollbarWidth: "none", // For Firefox
-          msOverflowStyle: "none", // For Internet Explorer and Edge
-        }}
-      >
+      <FlexContainer>
         <Sidebar />
         <MainContent />
-      </div>
+      </FlexContainer>
       {/* <button onClick={toggleTheme} className="p-2 m-4 border rounded">
         Toggle Theme
       </button> */}

@@ -11,13 +11,18 @@ import Image from 'next/image';
 const Sidebar = () => {
   return (
     <Box
-      sx={{
-        backgroundColor: "#16181B",
-        color: "white",
-        paddingTop: "86px",
-        paddingLeft: "62px",
-        width: "30%",
-      }}
+    sx={(theme) => ({
+      backgroundColor: "#0A0E13",
+      color: "white",
+      paddingTop: "86px",
+      paddingLeft: "62px",
+      width: "30%",
+      [theme.breakpoints.down('md')]: {
+        flexDirection: "column",
+        paddingLeft: "32px",
+        width: "100%", // Adjust width for mobile view if needed
+      },
+    })}
     >
       <Header />
       <Box sx={{ mb: 5, pt: 5 }}>
