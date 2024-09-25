@@ -1,6 +1,7 @@
 import profileImg from "../assets/profileImg.png";
 import cwLogo from "../assets/cw_logo.png";
 import tiLogo from "../assets/ty_logo.jpeg";
+import PDImage1 from "../assets/Hercules.png"
 
 
 export const jobTitles = ["UI UX Designer"," Product Designer", "Visual Designer"];
@@ -13,7 +14,7 @@ export const tabLabels = [
       {
         id: 1,
         label: "Graduation Project - TI Cycles of India",
-        image: "src/app/assets/Hercules.png",
+        image: PDImage1,
       },
       {
         id: 2,
@@ -184,7 +185,7 @@ export const profileDetails ={
     designation:"Product Designer I",
     company:"Codewalla",
     duration:"July 2022 - July 2024",
-    ccompanyLogo:"../assets/cw_logo.png",
+    companyLogo:"../assets/cw_logo.png",
   },
   {
     id:2,
