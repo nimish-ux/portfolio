@@ -1,7 +1,6 @@
 import profileImg from "../assets/profileImg.png";
 import cwLogo from "../assets/cw_logo.png";
 import tiLogo from "../assets/ty_logo.jpeg";
-import image from "../assets/Hercules.png";
 
 
 export const jobTitles = ["UI UX Designer"," Product Designer", "Visual Designer"];
@@ -14,7 +13,7 @@ export const tabLabels = [
       {
         id: 1,
         label: "Graduation Project - TI Cycles of India",
-        image: "../assets/Hercules.png",
+        image: "https://drive.google.com/file/d/1uY6xMc3EKPGL1Cdvm9qNHqtxXC_UABhA/view?usp=sharing",
       },
       {
         id: 2,
