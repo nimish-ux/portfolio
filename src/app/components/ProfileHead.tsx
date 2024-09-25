@@ -59,7 +59,7 @@ const ProfileHead: React.FC = () => {
             position: 'absolute',
             width: '100%',
             left: '0px',
-            top: '-23px',
+            top: '0px',
             right: '0',
             bottom: '0',
             objectFit: 'cover',
