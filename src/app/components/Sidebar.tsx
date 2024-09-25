@@ -23,7 +23,7 @@ const Sidebar = () => {
         <Typography
           variant="h5"
           component="h4"
-          sx={{ fontSize: "24px", fontWeight: "bolder" }}
+          sx={{ fontSize: "18px", fontWeight: "bolder" }}
         >
           About
         </Typography>
@@ -80,7 +80,7 @@ const Sidebar = () => {
         <Typography
           variant="body2"
           color="#707070"
-          align="left"
+          align="bottom"
           sx={{ mt: 0 }}
         >
           © 2024 Nimish Nerlekar. All rights reserved.
