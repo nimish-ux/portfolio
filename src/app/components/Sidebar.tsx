@@ -80,7 +80,7 @@ const Sidebar = () => {
         <Typography
           variant="body2"
           color="#707070"
-          align="left"
+          align="right"
           sx={{ mt: 0 }}
         >
           © 2024 Nimish Nerlekar. All rights reserved.
