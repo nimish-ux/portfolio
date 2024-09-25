@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div
       className={`h-screen	 ${theme === "dark" ? " text-white" : " text-black"}`}
-      style={{ backgroundColor: theme === "dark" ? "#1D1D1D" : "#FFFFFF" }}
+      style={{ backgroundColor: theme === "dark" ? "#1B1D21" : "#FFFFFF" }}
     >
    
       {/* <Header /> */}
