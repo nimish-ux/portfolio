@@ -12,7 +12,7 @@ import { profileDetails } from "../constant/commonConstant";
 const Buttons = styled.button`
   background: #25272C;
   border-radius: 8px;
-  border: 1px solid;
+  border: 1px solid #707070;
   padding: 8px 16px;
   &:hover {
     background: rgba(0, 0, 0, 0.04);
@@ -22,7 +22,7 @@ const Buttons = styled.button`
 const buttonStyles = {
   background: "#25272C",
   borderRadius: "8px",
-  border: "1px #707070",
+  border: "1px solid #707070",
 };
 const Header = () => {
   return (
