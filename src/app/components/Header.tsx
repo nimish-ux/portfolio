@@ -36,7 +36,7 @@ const Header = () => {
     >
       <Box sx={{ display: "flex", alignItems: "center", mb: 1 ,width:"100%"}}>
         <Box>
-          <Typography variant="h4" style={{fontSize:"28px"}} component="h3" sx={{ fontWeight: "bold" }}>
+          <Typography variant="h4" style={{fontSize:"28px"}} component="h3" sx={{ fontWeight: "semibold" }}>
             Hi, I&apos;m {profileDetails.name}
           </Typography>
           <Typography variant="body1">{profileDetails.email}</Typography>
