@@ -12,7 +12,7 @@ const Sidebar = () => {
     <Box
       sx={{
         backgroundColor: "#1D1D1D",
-        color: "white",
+        color: "black",
         paddingTop: "86px",
         paddingLeft: "62px",
         width: "30%",
