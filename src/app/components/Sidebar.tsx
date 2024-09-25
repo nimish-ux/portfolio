@@ -34,7 +34,7 @@ const Sidebar = () => {
             pt: 1,
             display: "-webkit-box",
             WebkitBoxOrient: "vertical",
-            WebkitLineClamp: 3,
+            WebkitLineClamp: 5,
             overflow: "hidden",
             textOverflow: "ellipsis",
           }}
