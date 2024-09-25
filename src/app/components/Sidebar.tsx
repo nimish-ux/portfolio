@@ -31,7 +31,7 @@ const Sidebar = () => {
         <Typography
           variant="body1"
           sx={{
-            fontSize: "14px",
+            fontSize: "12px",
             fontWeight: "regular",
             paddingRight: "20px",
             pt: 1,
