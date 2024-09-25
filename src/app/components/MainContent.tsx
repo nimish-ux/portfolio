@@ -73,7 +73,7 @@ const MainContent: React.FC = () => {
           {tabLabels[value].items.map((item) => (
             <Grid item xs={12} sm={6} md={4} key={item.id}>
               <Paper
-                sx={{ backgroundColor: "#202124", border: "1px solid #707070" }}
+                sx={{ backgroundColor: "#1B1D21", border: "1px solid #707070" }}
               >
                 <div
                   style={{
