@@ -28,7 +28,7 @@ const JobTitleText: React.FC = () => {
   }, [currentWordIndex, currentLetterIndex]);
 
   return (
-    <Typography variant="body1"   style={{fontSize:"20px"}} >
+    <Typography variant="body1"   style={{fontSize:"18px"}} >
       {displayedText}
     </Typography>
   );
