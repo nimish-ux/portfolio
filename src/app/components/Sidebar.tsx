@@ -11,7 +11,7 @@ const Sidebar = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#0A0E13",
+        backgroundColor: "#1F1F1F",
         color: "white",
         paddingTop: "86px",
         paddingLeft: "62px",
@@ -83,7 +83,7 @@ const Sidebar = () => {
           variant="body2"
           color="#707070"
           align="left"
-          sx={{ paddingTop: "86px", mt: 0 }}
+          sx={{ paddingBottom: "30px", mt: 0 }}
         >
           
           
