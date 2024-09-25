@@ -19,7 +19,7 @@ export const tabLabels = [
       {
         id: 2,
         label:"UI UX",
-        image: "https://via.placeholder.com/150",
+        image: profileImg,
       },
       {
         id: 3,
