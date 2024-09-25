@@ -206,8 +206,15 @@ export const profileDetails ={
     id:1,
     designation:"Product Designer II",
     company:"Codewalla",
-    duration:"July 2022 - Present",
+    duration:"Sept 2024 - Present",
     companyLogo:"../assets/cw_logo.png",
+  },
+  {
+    id:2,
+    designation:"Product Designer I",
+    company:"Codewalla",
+    duration:"July 2022 - July 2024",
+    ccompanyLogo:"../assets/cw_logo.png",
   },
   {
     id:2,
@@ -216,4 +223,5 @@ export const profileDetails ={
     duration:"Jan 2022 - July 2022",
     companyLogo:tiLogo
   }],
+  
 }
