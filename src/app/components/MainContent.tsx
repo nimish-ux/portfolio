@@ -39,6 +39,7 @@ const MainContent: React.FC = () => {
     "& .MuiTabs-flexContainer": {
       justifyContent: "flex-start",
       borderBottom: "1px solid #707070",
+      overflowX: "auto",
     },
   });
 
@@ -118,6 +119,16 @@ const MainContent: React.FC = () => {
           ))}
         </Grid>
       </Box>
+       <Typography
+          variant="body2"
+          color="#707070"
+          align="left"
+          sx={{ paddingTop: "20px", mt: 0 }}
+        >
+          
+          
+          © 2024 Nimish Nerlekar. All rights reserved.
+        </Typography>
     </Box>
   );
 };

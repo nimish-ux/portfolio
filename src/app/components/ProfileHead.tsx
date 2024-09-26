@@ -1,18 +1,18 @@
-import React from 'react';
-import { Box, Avatar } from '@mui/material';
-import Image from 'next/image';
-import backrounImg from '../assets/Group 61@2x.png'; // Adjust the path accordingly
-import { profileDetails } from '../constant/commonConstant';
-import profileImg from '../assets/profileImg.png'; // Import the image
-import styled from '@emotion/styled';
+import React from "react";
+import { Box, Avatar } from "@mui/material";
+import Image from "next/image";
+import backrounImg from "../assets/Group 61@2x.png"; // Adjust the path accordingly
+import { profileDetails } from "../constant/commonConstant";
+import profileImg from "../assets/profileImg.png"; // Import the image
+import styled from "@emotion/styled";
 
 const StyledDiv = styled.div`
   position: absolute;
   top: 70px;
   left: 65px;
-  width: 150px;
-  height: 150px;
-  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border: 1px solid #707070;
   border-radius: 10px;
   z-index: 100;
   overflow: hidden;
@@ -29,7 +29,7 @@ const ProfileHead: React.FC = () => {
   return (
     <>
       <Box
-        sx={{
+        sx={(theme) => ({
           position: "relative",
           width: "100%",
           height: "16%",
@@ -37,9 +37,12 @@ const ProfileHead: React.FC = () => {
           backgroundPosition: "center",
           borderBottom: "1px solid #707070",
           background: "#25272c",
-        }}
+          [theme.breakpoints.down("sm")]: {
+            display: "none",
+          },
+        })}
       >
-  <StyledDiv>
+        <StyledDiv>
           <Image
             src={profileImg}
             alt="avatar"
@@ -48,15 +51,18 @@ const ProfileHead: React.FC = () => {
           />
         </StyledDiv>
       </Box>
-      <div
-        style={{
-          position: 'absolute',
-          top: '-50px',
-          width: '100%',
+      <Box
+        sx={(theme) => ({
+          position: "absolute",
+          top: "-50px",
+          width: "100%",
           zIndex: 10,
-          height: '250px',
-          objectFit: 'cover',
-        }}
+          height: "250px",
+          objectFit: "cover",
+          [theme.breakpoints.down("sm")]: {
+            display: "none",
+          },
+        })}
       >
         <Image
           src={backrounImg}
@@ -64,17 +70,18 @@ const ProfileHead: React.FC = () => {
           layout="fill"
           objectFit="cover"
           style={{
-            position: 'absolute',
-            width: '100%',
-            left: '0px',
-            top: '-23px',
-            right: '0',
-            bottom: '0',
-            objectFit: 'cover',
-            color: 'transparent',
+            position: "absolute",
+            width: "100%",
+            left: "0px",
+            top: "-35px",
+            right: "0",
+            bottom: "0",
+            objectFit: "cover",
+            color: "transparent",
           }}
         />
-      </div>
+      </Box>
+     
     </>
   );
 };

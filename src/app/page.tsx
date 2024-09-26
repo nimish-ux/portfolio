@@ -12,13 +12,14 @@ import styled from '@emotion/styled';
 
 const FlexContainer = styled.div`
   display: flex;
-  height: 82%;
+  height: 84%;
   overflow-y: auto;
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none; /* For Internet Explorer and Edge */
 
   @media (max-width: 768px) {
     flex-direction: column;
+      height: 100%;
   }
 `;
 
@@ -36,8 +37,8 @@ export default function Home() {
 
   return (
     <div
-      className={`h-screen	 ${theme === "dark" ? " text-white" : " text-black"}`}
-      style={{ backgroundColor: theme === "dark" ? "#1B1D21" : "#FFFFFF" }}
+      className={`h-screen 	 ${theme === "dark" ? " text-white" : " text-black"}`}
+      style={{ backgroundColor: theme === "dark" ? "#1B1D21" : "#FFFFFF",overflowY: "auto" }}
     >
    
       {/* <Header /> */}
