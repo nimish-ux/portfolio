@@ -174,7 +174,7 @@ export const profileDetails ={
   experienceYears:"2",
   linkedIn:"https://www.linkedin.com/in/nimish-nerlekar/",
   behance:"https://www.behance.net/NimishNerlekar",
-  resume:"https://drive.google.com/file/d/1jE47M5sSY43SmpviEcWWXzhxTb6qa5XZ/view?usp=drive_link",
+  resume:"https://drive.google.com/file/d/1sfUEjJYyHDqA72m5_-EB3psmtaSYUtx0/view?usp=sharing",
   workExperience:[{
     id:1,
     designation:"Product Designer II",
