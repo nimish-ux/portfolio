@@ -2,6 +2,9 @@ import profileImg from "../assets/profileImg.png";
 import cwLogo from "../assets/cw_logo.png";
 import tiLogo from "../assets/ty_logo.jpeg";
 import PDImage1 from "../assets/Hercules.png"
+import PDImage2 from "src/app/assets/PDImg2.jpg"
+Import GDImage1 from "src/app/assets/GDimg1.jpg"
+Import GDImage2 from "src/app/assets/GDimg2.jpg"
 
 
 export const jobTitles = ["UI UX Designer"," Product Designer", "Visual Designer"];
@@ -19,24 +22,19 @@ export const tabLabels = [
       },
       {
         id: 2,
-        label:"UI UX",
-        image: PDImage1,
-        docURL: "https://www.behance.net/embed/project/127608911?ilo0=1",
+        label:"2021 Portfolio - PD",
+        image: PDImage2,
+        docURL: "https://www.behance.net/gallery/127608911/Portfolio-2021-Product-Design",
       },
       {
         id: 3,
-        label: "UI UX",
-        image: "https://via.placeholder.com/150",
+        label: "1Huddle",
+        docURL: "https://via.placeholder.com/150",
       },
       {
         id: 4,
-        label: "UI UX",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 5,
-        label: "UI UX",
-        image: "https://via.placeholder.com/150",
+        label: "UI Explorations",
+        docURL: "https://via.placeholder.com/150",
       },
     ],
   },
@@ -46,27 +44,19 @@ export const tabLabels = [
     items: [
       {
         id: 1,
-        label: "Product Design",
-        image: "https://via.placeholder.com/150",
+        label: "Car 3d Rendering",
+        image: GDImage1,
+        docURL: "https://www.behance.net/gallery/103180423/If-your-model-isnt-high-poly-render-it-as-a-Toy"
       },
       {
         id: 2,
-        label: "Graphic Design",
-        image: "https://via.placeholder.com/150",
+        label: "3d Rendering 2021 explorations",
+        image: GDImage2,
+        docURL: "https://www.behance.net/gallery/117146493/3d-Modeling-and-Rendering-explorations"
       },
       {
         id: 3,
-        label: "3D Printing",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 4,
-        label: "Blog",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 5,
-        label: "About me",
+        label: "Digital Art 2024",
         image: "https://via.placeholder.com/150",
       },
     ],
@@ -76,29 +66,6 @@ export const tabLabels = [
     label: "3D Printing",
     items: [
       {
-        id: 1,
-        label: "Product Design",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 2,
-        label: "Graphic Design",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 3,
-        label: "3D Printing",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 4,
-        label: "Blog",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 5,
-        label: "About me",
-        image: "https://via.placeholder.com/150",
       },
     ],
   },
@@ -107,29 +74,6 @@ export const tabLabels = [
     label: "Blog",
     items: [
       {
-        id: 1,
-        label: "Blog",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 2,
-        label: "Blog",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 3,
-        label: "Blog",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 4,
-        label: "Blog",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 5,
-        label: "Blog",
-        image: "https://via.placeholder.com/150",
       },
     ],
   },
@@ -139,29 +83,11 @@ export const tabLabels = [
     items: [
       {
         id: 1,
-        label: "Product Design",
-        image: "https://via.placeholder.com/150",
+        label: "Resume",
+        image: profileImg,
+        docURL: "https://drive.google.com/file/d/1sfUEjJYyHDqA72m5_-EB3psmtaSYUtx0/view?usp=sharing",
       },
-      {
-        id: 2,
-        label: "Graphic Design",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 3,
-        label: "3D Printing",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 4,
-        label: "Blog",
-        image: "https://via.placeholder.com/150",
-      },
-      {
-        id: 5,
-        label: "About me",
-        image: "https://via.placeholder.com/150",
-      },
+     
     ],
   },
 ];
