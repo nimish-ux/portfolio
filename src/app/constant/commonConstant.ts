@@ -66,6 +66,10 @@ export const tabLabels = [
     label: "3D Printing",
     items: [
       {
+        label:"2021 Portfolio - PD",
+        image: PDImage2,
+        docURL: "https://www.behance.net/gallery/127608911/Portfolio-2021-Product-Design",
+
       },
     ],
   },
@@ -74,6 +78,10 @@ export const tabLabels = [
     label: "Blog",
     items: [
       {
+        label:"2021 Portfolio - PD",
+        image: PDImage2,
+        docURL: "https://www.behance.net/gallery/127608911/Portfolio-2021-Product-Design",
+
       },
     ],
   },
