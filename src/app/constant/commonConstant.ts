@@ -20,7 +20,7 @@ export const tabLabels = [
       {
         id: 2,
         label:"UI UX",
-        image: "https://drive.google.com/file/d/1mQ4gpm3CIfwYzCPVp917Bh77sgGt_S3O/view?usp=drive_link",
+        image: "https://www.behance.net/embed/project/127608911?ilo0=1",
       },
       {
         id: 3,
