@@ -5,6 +5,8 @@ import PDImage1 from "../assets/Hercules.png";
 import PDImage2 from "../assets/PDImg2.jpg";
 import GDImage1 from "../assets/GDimg1.jpg";
 import GDImage2 from "../assets/GDimg2.jpg";
+import profileImg2 from "../assets/profileimage2.png";
+
 
 
 export const jobTitles = ["UI UX Designer"," Product Designer", "Visual Designer"];
@@ -94,7 +96,7 @@ export const tabLabels = [
       {
         id: 1,
         label: "Resume",
-        image: profileImg,
+        image: profileImg2,
         docURL: "https://drive.google.com/file/d/1sfUEjJYyHDqA72m5_-EB3psmtaSYUtx0/view?usp=sharing",
       },
      
