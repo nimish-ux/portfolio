@@ -107,7 +107,7 @@ export const profileDetails ={
   name: "Nimish Nerlekar",
   profileImage: profileImg,
   email: "nimishnerlekarwork@gmail.com",
-  about:"I’m a creative Product Designer with a passion for solving real-world problems through UI/UX. I specialize in SaaS, B2B, game-tech, and AI, crafting human-centered digital experiences that drive growth and delight users. Fueled by curiosity, I strive to create work that’s impactful and meaningful.",
+  about:"I’m a creative Product Designer with a passion for UI/UX and problem-solving. I have experience in game-tech, data analysis, psychology, and 3D printing. I design human-centered solutions that make an impact, driven by curiosity and a desire to create work that truly engages and delights.",
   experienceYears:"2",
   linkedIn:"https://www.linkedin.com/in/nimish-nerlekar/",
   behance:"https://www.behance.net/NimishNerlekar",
