@@ -1,10 +1,10 @@
 import profileImg from "../assets/profileImg.png";
 import cwLogo from "../assets/cw_logo.png";
 import tiLogo from "../assets/ty_logo.jpeg";
-import PDImage1 from "../assets/Hercules.png"
-import PDImage2 from "../assets/PDImg2.jpg"
-import GDImage1 from "../assets/GDimg1.jpg"
-import GDImage2 from "../assets/GDimg2.jpg"
+import PDImage1 from "../assets/Hercules.png";
+import PDImage2 from "../assets/PDImg2.jpg";
+import GDImage1 from "../assets/GDimg1.jpg";
+import GDImage2 from "../assets/GDimg2.jpg";
 
 
 export const jobTitles = ["UI UX Designer"," Product Designer", "Visual Designer"];
