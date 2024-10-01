@@ -29,12 +29,12 @@ export const tabLabels = [
       {
         id: 3,
         label: "1Huddle",
-        docURL: "https://via.placeholder.com/150",
+        image: "https://via.placeholder.com/150",
       },
       {
         id: 4,
         label: "UI Explorations",
-        docURL: "https://via.placeholder.com/150",
+        image: "https://via.placeholder.com/150",
       },
     ],
   },
