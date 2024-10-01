@@ -62,7 +62,7 @@ const Sidebar = () => {
               pt: 1,
               display: "-webkit-box",
               WebkitBoxOrient: "vertical",
-              WebkitLineClamp: 4,
+              WebkitLineClamp: 6,
               overflow: "hidden",
               textOverflow: "ellipsis",
             }}
