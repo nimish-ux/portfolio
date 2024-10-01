@@ -18,7 +18,7 @@ export const tabLabels = [
         id: 1,
         label: "Graduation Project - TI Cycles of India",
         image: PDImage1,
-        docURL: "https://drive.google.com/file/d/1mQ4gpm3CIfwYzCPVp917Bh77sgGt_S3O/view?usp=drive_link"
+        docURL: "https://drive.google.com/file/d/1mQ4gpm3CIfwYzCPVp917Bh77sgGt_S3O/view?usp=drive_link",
       },
       {
         id: 2,
@@ -46,13 +46,13 @@ export const tabLabels = [
         id: 1,
         label: "Car 3d Rendering",
         image: GDImage1,
-        docURL: "https://www.behance.net/gallery/103180423/If-your-model-isnt-high-poly-render-it-as-a-Toy"
+        docURL: "https://www.behance.net/gallery/103180423/If-your-model-isnt-high-poly-render-it-as-a-Toy",
       },
       {
         id: 2,
         label: "3d Rendering 2021 explorations",
         image: GDImage2,
-        docURL: "https://www.behance.net/gallery/117146493/3d-Modeling-and-Rendering-explorations"
+        docURL: "https://www.behance.net/gallery/117146493/3d-Modeling-and-Rendering-explorations",
       },
       {
         id: 3,
@@ -66,6 +66,7 @@ export const tabLabels = [
     label: "3D Printing",
     items: [
       {
+        id: 1,
         label:"2021 Portfolio - PD",
         image: PDImage2,
         docURL: "https://www.behance.net/gallery/127608911/Portfolio-2021-Product-Design",
@@ -78,6 +79,7 @@ export const tabLabels = [
     label: "Blog",
     items: [
       {
+        id: 1,
         label:"2021 Portfolio - PD",
         image: PDImage2,
         docURL: "https://www.behance.net/gallery/127608911/Portfolio-2021-Product-Design",
