@@ -11,6 +11,7 @@ import frame3d from "../assets/frame3d.png";
 import router from "../assets/router.png";
 import frog from "../assets/frog.jpg";
 import ship from "../assets/ship.jpg";
+import shybot from "../assets/arduino.png"
 
 
 
@@ -114,6 +115,13 @@ export const tabLabels = [
         label:"Battleship Hammerhead",
         image: ship,
         docURL: "https://www.printables.com/model/1026839-battleship-hammerhead",
+
+      },
+      {
+        id: 4,
+        label:"Shy-Eye-Bot Arduino Project",
+        image: shybot,
+        docURL: "https://drive.google.com/file/d/1PrlgkqaVz46vlCRURFxgCWqj3fJ2SEC_/view?usp=drive_link",
 
       },
 
