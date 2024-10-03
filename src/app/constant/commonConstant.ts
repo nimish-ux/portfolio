@@ -10,6 +10,7 @@ import huddle from "../assets/1huddle.png";
 import frame3d from "../assets/frame3d.png";
 import router from "../assets/router.png";
 import frog from "../assets/frog.jpg";
+import ship from "../assets/ship.jpg";
 
 
 
@@ -106,6 +107,13 @@ export const tabLabels = [
         label:"Mr Frog - Percussion Instrument",
         image: frog,
         docURL: "https://www.printables.com/model/1026817-mr-frog-percussion-instrument",
+
+      },
+      {
+        id: 3,
+        label:"Battleship Hammerhead",
+        image: ship,
+        docURL: "https://www.printables.com/model/1026839-battleship-hammerhead",
 
       },
 
