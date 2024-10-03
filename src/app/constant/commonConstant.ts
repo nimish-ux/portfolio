@@ -9,6 +9,7 @@ import profileImg2 from "../assets/profileimage2.png";
 import huddle from "../assets/1huddle.png";
 import frame3d from "../assets/frame3d.png";
 import router from "../assets/router.png";
+import frog from "../assets/frog.jpg";
 
 
 
@@ -100,6 +101,14 @@ export const tabLabels = [
         docURL: "https://www.printables.com/model/1026779-vintage-frame-shelf",
 
       },
+      {
+        id: 2,
+        label:"Mr Frog - Percussion Instrument",
+        image: frog,
+        docURL: "https://www.printables.com/model/1026817-mr-frog-percussion-instrument",
+
+      },
+
     ],
   },
   {
