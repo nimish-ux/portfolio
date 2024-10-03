@@ -127,7 +127,8 @@ export const profileDetails ={
   linkedIn:"https://www.linkedin.com/in/nimish-nerlekar/",
   behance:"https://www.behance.net/NimishNerlekar",
   resume:"https://drive.google.com/file/d/1sfUEjJYyHDqA72m5_-EB3psmtaSYUtx0/view?usp=sharing",
-  workExperience:[{
+  workExperience:
+  [{
     id:1,
     designation:"Product Designer II",
     company:"Codewalla",
