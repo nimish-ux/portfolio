@@ -11,7 +11,7 @@ import frame3d from "../assets/frame3d.png";
 import router from "../assets/router.png";
 import frog from "../assets/frog.jpg";
 import ship from "../assets/ship.jpg";
-import shybot from "../assets/arduino.png"
+import shybot from "../assets/arduino.png";
 
 
 
