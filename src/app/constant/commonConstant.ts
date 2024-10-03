@@ -6,7 +6,7 @@ import PDImage2 from "../assets/PDImg2.jpg";
 import GDImage1 from "../assets/GDimg1.jpg";
 import GDImage2 from "../assets/GDimg2.jpg";
 import profileImg2 from "../assets/profileimage2.png";
-import 1Huddle from "../assets/1huddle.png";
+import huddle from "../assets/1huddle.png";
 import frame3d from "../assets/frame3d.png";
 import router from "../assets/router.png";
 
@@ -29,7 +29,7 @@ export const tabLabels = [
       {
         id: 2,
         label: "1Huddle",
-        image: "1Huddle",
+        image: huddle,
         docURL: "https://1huddle.co/",
       },
       {
